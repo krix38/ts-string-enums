@@ -1,0 +1,23 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/bundle.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "lodash": "^4.17.5"
+  },
+  "dependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "util": "^0.10.3"
+  }
+}
